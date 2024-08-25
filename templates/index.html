@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subir Shapefile</title>
+    <title>Shapefile</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Sube tu archivo Shapefile</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
         <input type="file" name="file" accept=".zip" required>
-        <button type="submit">Subir</button>
+        <button class="button-85" role="button">Button 85</button>
     </form>
 </body>
 </html>
+
+
